@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <header>
+       <h1>Contact Us</h1>  
+    </header>
+    <main>
+        
+        <form action="" method="post">
+            <section>
+                <h1>How can we help you?</h1>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <label for="your-name">Your Name</label>
+                        <input type="text" name="name" id="your-name" value="" required>
+                    </li>
+                    <li>
+                        <label for="your-email">Your Email Address</label>
+                        <input type="text" name="email" id="your-email" value="" required>
+                    </li>
+                    <li>
+                        <label for="your-phone">Your Phone Number</label>
+                        <input type="tel" name="phone" id="your-phone" value="" required minlength="5">
+                    </li>
+                    <li>
+                        <label for="your-massage">Your Massage</label>
+                        <textarea style="height: 6rem;" name="massage" id="your-massage" minlength="20" maxlength="200" rows="6"></textarea>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <label for="find-us">How did you find us</label>
+                    <select name="find-us" id="find-us">
+                        <option value="web-search">Web search</option>
+                        <option value="online">Online</option>
+                        <option value="Other">Other</option>
+                </ul>
+                </select>
+            </section>
+            <section>
+                <h2>How should we reply?</h2>
+                <ul>
+                    <li class="control-itmes">
+                        <label for="call">call me</label>
+                        <input type="radio" name="reply" id="call" value="">
+                    </li>
+                    <li class="control-itmes">
+                        <label for="massage">send me an massage</label>
+                        <input type="radio" name="reply" id="massage" value="">
+                    </li>
+                    <li class="control-itmes">
+                        <label for="no-reply">Don't reply</label>
+                        <input type="radio" name="reply" id="no-reply" value="">
+                    </li>
+                </ul>
+            </section>
+            <section class="control-itmes">
+                <label for="accept">Accept Terms</label>
+                 <input type="checkbox" name="accept" id="accept">
+            </section>
+            <section class="button">
+                <button class="sm" type="submit">submit</button>
+                <button class="cr" type="reset">clear</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

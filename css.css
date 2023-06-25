@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(203, 230, 252);
+}
+form {
+    width: 40rem;
+    margin: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px rgb(0, 0,0,0.2);
+    box-sizing: border-box;
+}
+section {
+    margin-bottom: 1rem;
+
+}
+h1 {margin-top: 1rem;}
+header {
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+}
+ul {
+    list-style: none;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.2rem;
+}
+label {
+    display: block;
+    margin: 0.5rem 0 ;
+}
+.control-itmes {
+    display: flex;
+}
+.control-itmes input {
+    width: auto;
+}
+.control-itmes label {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.button {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+.sm {
+    background-color: rgb(79, 3, 150);
+    color: white;
+    cursor: pointer;
+}
+.sm:hover {
+    background-color: rgb(120, 8, 224);
+    
+}
+.cr {
+    background-color: rgb(212, 212, 255);
+    color: black;
+    cursor: pointer;
+}
+.cr:hover {
+    background-color:rgb(185, 185, 245) ;
+}
+
+
